@@ -635,9 +635,9 @@ asi:
     #  configMapName: my-configmap-2
   
   #If myFG is hosted on HTTP Server adapter on ASI server, provide the internal port/protocol details used while configuring that.
-  myFgAccess:
-    myFgPort:
-    myFgProtocol:
+  # myFgAccess:
+  #   myFgPort:
+  #   myFgProtocol:
 
   hostAliases: []
   #- ip: "127.0.0.1"
