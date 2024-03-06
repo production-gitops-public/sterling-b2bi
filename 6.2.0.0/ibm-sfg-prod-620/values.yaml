@@ -258,7 +258,7 @@ setupCfg:
   #upgrade: false
   basePort: 30000
   #License - specify values as true/false
-  licenseAcceptEnableSfg: true
+  licenseAcceptEnableSfg: false
   licenseAcceptEnableEbics: false
   licenseAcceptEnableFinancialServices: false
   licenseAcceptEnableFileOperation: false
