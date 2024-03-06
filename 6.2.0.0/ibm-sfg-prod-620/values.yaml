@@ -458,7 +458,7 @@ asi:
     annotations: {}  
   
   backendService:
-    type: LoadBalancer
+    type: ClusterIP
     # Supported values are "ClientIP" & "None". Default is "None".
     sessionAffinity: None
     #override session affinity timeout configuration (applicable when sessionAffinity is configured other than "None")
@@ -751,7 +751,7 @@ ac:
     annotations: {}  
       
   backendService:
-    type: LoadBalancer
+    type: ClusterIP
     # Supported values are "ClientIP" & "None". Default is "None".
     sessionAffinity: None
     #override session affinity timeout configuration (applicable when sessionAffinity is configured other than "None")
