@@ -240,8 +240,8 @@ integrations:
       claims:
         name: itxa-logs-pvc
     sso:
-      host: "speui.apps.openshift.in.dev"
-      port: 443
+      host: "itxa-db2.apps.65d8ede083f21b0011689313.cloud.techzone.ibm.com"
+      port: 9080
       ssl:
         enabled: false
     resourcesInit:
