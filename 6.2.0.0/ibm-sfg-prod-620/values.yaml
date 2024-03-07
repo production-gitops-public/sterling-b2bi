@@ -576,9 +576,9 @@ asi:
       ephemeral-storage: "2Gi"
 
   autoscaling:
-    enabled: false
-    minReplicas: 1
-    maxReplicas: 2
+    enabled: true
+    minReplicas: 2
+    maxReplicas: 4
     targetCPUUtilizationPercentage: 60
 
   defaultPodDisruptionBudget:
