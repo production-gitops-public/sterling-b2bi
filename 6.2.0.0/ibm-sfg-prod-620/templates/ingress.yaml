@@ -28,8 +28,8 @@ A function to prepare host list based on access
 {{- $asiInternalPaths = append $asiInternalPaths (dict "routePrefix" "ebicsClient" "path" "/ebicsClient" "access" "both") -}}
 {{- $asiExternalPaths = append $asiExternalPaths (dict "routePrefix" "ebicsClient" "path" "/ebicsClient" "access" "both") -}}
 {{- end }}
-# {{- $asiInternalPaths = append $asiInternalPaths (dict "routePrefix" "mailbox" "path" "/mailbox" "access" "both") -}}
-# {{- $asiExternalPaths = append $asiExternalPaths (dict "routePrefix" "mailbox" "path" "/mailbox" "access" "both") -}}
+*/ {{- $asiInternalPaths = append $asiInternalPaths (dict "routePrefix" "mailbox" "path" "/mailbox" "access" "both") -}} */
+*/ {{- $asiExternalPaths = append $asiExternalPaths (dict "routePrefix" "mailbox" "path" "/mailbox" "access" "both") -}} */
 {{- $asiInternalPaths = append $asiInternalPaths (dict "routePrefix" "queueWatch" "path" "/queueWatch" "access" "internal") -}}
 {{- $asiInternalPaths = append $asiInternalPaths (dict "routePrefix" "wsdl" "path" "/wsdl" "access" "internal" "port" "soa" "sslPort" "soassl") -}}
 {{- $asiInternalPaths = append $asiInternalPaths (dict "routePrefix" "soap" "path" "/soap" "access" "internal" "port" "soa" "sslPort" "soassl") -}}
