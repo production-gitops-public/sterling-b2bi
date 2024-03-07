@@ -240,8 +240,8 @@ integrations:
       claims:
         name: itxa-logs-pvc
     sso:
-      host: "itxa-db2.apps.65d8ede083f21b0011689313.cloud.techzone.ibm.com"
-      port:
+      host: "itxa-ibm-itxa-prod-itxauiserver.db2.svc.cluster.local"
+      port: 9080
       ssl:
         enabled: false
     resourcesInit:
